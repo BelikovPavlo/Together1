@@ -1,0 +1,62 @@
+.container{
+    background-color: black;
+    width: 290px;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto;
+}
+.button1 {
+    margin-top: 10% 0;
+    color: azure;
+    text-align: center;
+    margin: 15% 0;
+}
+
+.button1:hover {
+    box-shadow: inset 0px 0px 10px 10px rgb(85, 99, 222);
+    font-size: 40px;
+}
+
+.button2 {
+    color: azure;
+    text-align: center;
+    margin: 15% 0;
+}
+
+.button2:hover {
+    box-shadow: inset 0px 0px 10px 10px rgb(85, 99, 222);
+    font-size: 40px;
+}
+
+.button3 {
+    color: azure;
+    text-align: center;
+    margin: 15% 0;
+}
+
+.button3:hover {
+    box-shadow: inset 0px 0px 10px 10px rgb(85, 99, 222);
+    font-size: 40px;
+}
+
+.button4 {
+    color: azure;
+    text-align: center;
+    margin: 15% 0;
+}
+
+.button4:hover {
+    box-shadow: inset 0px 0px 10px 10px rgb(85, 99, 222);
+    font-size: 40px;
+}
+
+.button5 {
+    color: azure;
+    text-align: center;
+}
+
+.button5:hover {
+    box-shadow: inset 0px 0px 10px 10px rgb(85, 99, 222);
+    font-size: 40px;
+}
+

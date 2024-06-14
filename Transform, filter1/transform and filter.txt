@@ -1,0 +1,98 @@
+/*! transform */
+
+.transform{
+    margin: 100px 200px;
+    border: 3px solid white;
+    display: inline-block;
+
+    /*! типу зближення(лупа) */
+    /* overflow: hidden;  */
+}
+
+.transform .transform_img{
+    width: 400px; /* !!!!!! */
+
+    /* transition: all 2s linear; */
+    cursor: pointer;
+
+    /*? створення опорної точки */
+    /* transform-origin: top left;  */
+}
+
+
+.transform:hover .transform_img{
+    /*! обертання елемента і також може бути мінусовим */
+    /* transform: rotate(60deg); */
+
+    /*! масштабування */
+    /*!!! виверт. картинку(НЕ перевертаємо) */
+    /*? не рухає інші елементи при масштабуванні*/
+    /*transform: scale(1.5);*/ /*? множиться width на "(...)" */
+    /*transform: scale(1, 1.2);*/ /*? 1.width 2.height */
+    /* transform: scaleX(1.5);
+    transform: scaleY(1.5); */
+
+    /*! зміщення (X, Y)*/
+    /* transform: translate(-50px, 50px); */
+
+    /*! розтягування типу 3d */
+    /* transform: skew(-20deg, -20deg); */
+
+    
+    transform: rotate(10deg) scale(1.5) skew(10deg);
+}
+
+
+
+body{
+    background-color: black;
+}
+
+/* ////////////////// */
+
+/*! filter */
+
+.filter{
+    margin: 100px;
+}
+
+.filter .filter_img{
+    width: 500px;
+    transition: all 2s linear;
+}
+
+.filter_img:hover{
+    /* розмиття */
+    /* filter: blur(100px); */
+
+    /*! чорно білим 0 > 100% */
+    /* filter: grayscale(100%); */
+
+    /*! тіні */
+    /* filter: drop-shadow(15px 17px 5px red); */
+
+    /*! яскравість 100 default */
+    /* filter: brightness(200%); */
+
+    /*! контраст 100 default */
+    /* filter: contrast(200%); */
+
+    /*! колірне коло 0 до 360deg */
+    /* filter: hue-rotate(200deg); */
+
+    /*! негатив */
+    /* filter: invert(90%); */
+
+    /*! насищенність */
+    /* filter: saturate(460%); */
+
+    /*! ефект старого фоту */
+    /* filter: sepia(100%); */
+
+    /*! прозорість */
+    /* filter: opacity(10%); */
+
+
+    filter: blur(2px) contrast(150%) drop-shadow(10px 10px 5px red);
+
+}

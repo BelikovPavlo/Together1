@@ -1,0 +1,88 @@
+.container{
+    /* background-color: red; */
+    margin: 0 auto; /* Посередині розмістити(блочні) */
+    width: 500px;
+    height: 500px;
+
+    /* градієнти */
+    /* 1.лінійний */
+    /* background: linear-gradient(blue, red); */
+    /* background: linear-gradient(orange, blue, red, yellow); */
+    /* background: linear-gradient(to right, blue, red); */
+    /* background: linear-gradient(to left, blue, red);  */
+    /* background: linear-gradient(to top, blue, red); */
+    /* background: linear-gradient(to bottom, blue, red); */
+    /* ///////////////////////////// */
+    /* background: linear-gradient(to top right, blue, red); */
+    /* background: linear-gradient(0deg, blue, red);
+    background: linear-gradient(90deg, blue, red);
+    background: linear-gradient(-90deg, blue, red); */
+    /* background: linear-gradient(100deg, blue, red); */ /* градуси */
+    /* ///////////////////////////// */
+    /* background: linear-gradient(180deg, rgb(108, 236, 9) 0%, rgb(36, 55, 21) 9%, rgb(52, 110, 8) 30%, rgb(57, 18, 197) 76%, rgb(48, 12, 99) 100%);  */
+    /* регулювати градієнт відсотками */
+
+    /* ///////////////////////////// */
+
+    /* 2.радіальний */
+
+    /* background: radial-gradient(red, blue); */
+    /* background: radial-gradient(red 10px, yellow 30%, #1e90ff); */
+    /* коло всередині */
+    /* background: radial-gradient(at 20% 20%, red 10px, yellow 30%, #1e90ff); */
+    /* сдвиг центру */
+
+    /* ///////////////////////////// */
+
+    /* background: linear-gradient(102deg, rgba(253,187,45,1) 14%, rgba(180,36,33,1) 32%, rgba(34,193,195,1) 46%, rgba(191,123,151,1) 68%, rgba(78,114,204,1) 88%, rgba(253,187,45,1) 100%); */ /*! генератор градієнта */
+
+    background: radial-gradient(circle, rgba(253,187,45,1) 14%, rgba(180,36,33,1) 32%, rgba(34,193,195,1) 46%, rgba(191,123,151,1) 68%, rgba(78,114,204,1) 88%, rgba(253,187,45,1) 100%); /*! генератор градієнта */
+
+    /*? border */
+    /* border-color: black; */
+    /* border-width: 13px; */
+    /* border-style: solid; */
+
+    /* border-width: 20px 30px 40px 50px; */ /*! різна ширина сторін */
+
+    /* border-top: ;
+    border-bottom: ;
+    border-right: ;
+    border-left: ; */
+
+    /* border: 13px solid black; */
+
+    /* border-top: 13px solid red; */
+
+    /* border-radius: 40px 100px 200px; */
+
+    /* border-radius: 50%; */ /*! Коло */ /*! НЕ ОБОВ'ЯЗКОВО рамка */
+
+    /* border-radius: 100px 300px;
+    border-radius: 100px 200px 300px 400px; */
+
+
+
+
+    /*? box-shadow(тінь) */
+    /*! 1,2.зміщення, 3.blur, 4.величина тіні, 5. color */
+    /* box-shadow:inset 30px 30px 40px 0px red;  */
+    /* box-shadow: -30px -30px 9px 0px; */
+
+
+
+}
+
+h1{
+    /*? text-shadow(тінь) */
+    font-size: 50px;
+    text-shadow: 4px 4px 2px red;
+}
+
+/*? динаміка */
+/* .container:hover{
+  width: 510px;
+  height: 510px;
+  box-shadow: 20px 20px 9px gray;
+} */
+

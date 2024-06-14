@@ -1,0 +1,173 @@
+@font-face{
+    font-family: 'Caricature';
+    src: url(./fonts/Caricature.fr.ttf);
+}
+
+header{
+    border: 2px solid black;
+    background: rgb(12, 125, 238);
+    color: white;
+    height: 50px;
+    font-family: 'Caricature';
+}
+
+
+.p1{
+    color: gray;
+}
+
+.b1{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: rgb(12, 125, 238);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.n1{
+    text-align: center;
+}
+
+.p2{
+    text-align: center;
+    color: gray;
+}
+
+#b2{
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    background-color: rgb(12, 125, 238);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 690px;
+}
+
+.b2{
+    margin-left: 327px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(12, 125, 238);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+
+.p3{
+    color: gray;
+}
+
+.b3{
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(12, 125, 238);
+    border-radius: 5px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+#img2{
+    float: right;
+    margin-right: 10px;
+}
+
+.p4{
+    color: gray;
+}
+
+.b4{
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(12, 125, 238);
+    border-radius: 5px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.n5{
+    text-align: center;
+}
+
+.p5{
+    text-align: center;
+    color: gray;
+    margin-bottom: 100px;
+}
+
+.container5 {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.p7 {
+    color: gray;
+}
+
+.p9 {
+    color: gray;
+}
+
+.column {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.container6 {
+    display: flex;
+    justify-content: center;
+}
+
+.row1 {
+    margin: 0 40px;
+    text-align: center;
+}
+
+.p7 {
+    color: gray;
+}
+
+.p9 {
+    color: gray;
+}
+
+.column2 {
+    margin: 0 40px;
+    text-align: center;
+}
+
+.column1 {
+    margin: 0 40px;
+    text-align: center;
+}
+
+#n9 {
+    margin-left: 40px;
+}
+
+#p10 {
+    margin: 10px;
+    margin-left: 40px;
+}
+
+#b4 {
+    cursor: pointer;
+    margin-left: 40px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(12, 125, 238);
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+

@@ -1,0 +1,80 @@
+body{
+    background: #ccc;
+}
+
+.image {
+    display: inline-block;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 20px; 
+    left: 300px; 
+    background-color: rgba(61, 54, 54, 0.9);
+    color: #fff; 
+    padding: 10px;
+}
+
+.text2 {
+    position: absolute;
+    top: 20px; 
+    right: 300px; 
+    background-color: rgba(173, 233, 225, 0.9);
+    color: black; 
+    padding: 10px;
+}
+
+.slide-show1{
+    width: 570px;
+    height: 270px;
+    margin: 0 auto;
+    border: #fff solid 20px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.sliders1{
+    cursor: pointer;
+    width: 1710px; 
+    height: 270px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    animation: slide-animation1 10s infinite alternate; /*add "1" in name*/
+}
+
+.sliders1:hover{
+    animation-play-state: paused;
+}
+
+.sliders1 article {
+    position: absolute;
+}
+
+.sliders1 article:nth-child(1){
+    left: 0;
+}
+.sliders1 article:nth-child(2){
+    left: 570px;
+}
+.sliders1 article:nth-child(3){
+    left: 1140px;
+}
+.sliders1 article:nth-child(4){
+    left: 1710px;
+}
+.sliders1 article:nth-child(5){
+    left: 2280px;
+}
+
+@keyframes slide-animation1{
+    0%{left: 0;}
+    20%{left: 0;}
+    40%{left: -570px;}
+    60%{left: -1140px;}
+    80%{left: -1710px;}
+    100%{left: -2280px;}
+}

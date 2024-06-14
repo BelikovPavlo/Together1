@@ -1,0 +1,45 @@
+.container{
+  width: 600px;
+  height: 800px;
+  border: 2px solid black;
+  margin: 0 auto;
+  padding: 10px;  
+}
+
+/*! 1 picture */
+header{
+    border: 2px solid black;
+    margin: 5px;
+    height: 15%;
+}
+
+.box1{
+  margin: 5px;
+  border: 2px solid black;
+  width: 120px;
+  height: 500px; 
+  float: left; 
+}
+
+.box2{
+    margin: 5px;
+    border: 2px solid black;
+    width: 120px;
+    height: 500px;   
+    float: right; 
+}
+
+.box3{
+    margin: 5px;
+    border: 2px solid black;
+    width: 318px;
+    height: 630px;
+    float: right;
+}
+
+footer{
+    margin: 5px;
+    border: 2px solid black;
+    height: 3%;
+    clear: both;
+}

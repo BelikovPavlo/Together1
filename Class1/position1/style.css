@@ -1,0 +1,44 @@
+/*! position */
+
+.container{
+    background: rgb(103, 5, 5);
+    padding: 50px;
+    position: relative; /*? absolute обмежується рамкою */
+
+}
+
+.item1{
+    padding: 30px;
+    background: red;
+    /* дефолтне значення */
+    /* position: static; */
+    
+    /*! позиціонується відносно свого місця не втрачаючи його */
+    /* position: relative;
+    top: -60px;
+    right: 60px; */
+    /*? top right left... */
+
+
+    /*! прикріплюється до монітора(і не рухається) */
+    /* position: fixed;
+    bottom: 100px; */
+
+}
+.item2{
+    padding: 30px;
+    background: blue;
+    /*! позиціонується відносно свого місця втрачає його */
+    /* position: absolute;
+    bottom: 0px;
+    left: 0px; */
+
+}
+.item3{
+    padding: 30px;
+    background: greenyellow;
+
+    /*! змішання fixed and relative */
+    /* position: sticky;
+    top: 0px; */
+}

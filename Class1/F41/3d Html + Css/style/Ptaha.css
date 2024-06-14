@@ -1,0 +1,26 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+#p1{
+  color: goldenrod;
+  text-align: start;
+  text-decoration: underline;
+}
+
+#p2{
+    color: red;
+    text-align: right;
+}
+
+#p3{
+  color: blue;
+  text-align: left;
+}
+
+#p4{
+    color: blueviolet;
+    text-align: left;
+    font-style: italic;
+}

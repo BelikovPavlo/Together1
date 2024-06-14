@@ -1,0 +1,90 @@
+.box{
+  width: 100px;
+  height: 100px;  
+  background-color: blueviolet;
+  margin: 15px;
+  /* margin-top: 50px; */
+  color: aliceblue;
+  font-size: 90px;
+  text-align: center;
+
+  /*! Позиціонує елемент(обтікає елемент) */
+  float: left;
+  /* float: right; */
+}
+
+.box1{
+    width: 100px;
+    height: 100px;  
+    background-color: blueviolet;
+    margin: 15px;
+    color: aliceblue;
+    font-size: 90px;
+    text-align: center;
+  
+    /*! 1 Позиціонує елемент 2(обтікає елемент) 3 з інл. в блочні */
+    /* float: left; */
+    float: right;
+  }
+
+.p2{
+    /*! забороняє обтікати блоки в яких є властивість float */
+    clear: right;
+    /* clear: left; */
+    /*clear: both;*/ /*! Обидві сторони */
+}
+
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    display: inline; /*! Блочні елементи стають інлайновими */
+    float: left;
+}
+
+body{
+    /*! Колір */
+    background-color: gold;
+    /* background-color: #89b45a; */
+    /*background-color: rgba(154, 18, 18, 0.3); */ /*! Прозорість в % */
+
+    /*! Фонова картинка */
+    /* background-image: url(../imgs/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg); */
+
+    /*! Повторення картинки(кліькість) */
+    /* background-repeat: repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: space; */
+    /* background-repeat: round; */
+
+    /*! Позиціювання картинки на background */
+    /* bottom, top, right, left */
+    /*background-position: top right; */ /*! По кількості контенту */
+
+    /* background-position: 100px 500px; */
+
+
+
+    /*! Фіксація */
+    /* background-attachment: fixed; */ /*! Фіксується картинка, а текст гортається */
+
+
+    /*! Розмір background */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /*background-size: 100% 100ch; */ /*! 100% ширини та висоти */
+
+
+
+
+    /*! Зменшення кількості коду */
+    /* background: url(../imgs/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg) no-repeat fixed;
+    background-size: 100% 100ch; */
+    
+}
+
+

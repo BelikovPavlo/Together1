@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Library_soft.otf';
+    src: url(./fonts/Library.otf);
+} 
+
+#n1{
+    color: brown;
+    text-align: center;
+    font-family: 'Library_soft.otf' , sans-serif;
+}
+
+@font-face {
+    font-family: 'font.otf';
+    src: url(./fonts/font.otf);
+} 
+
+#p1{
+    text-align: center;
+    font-size: 20px;
+
+    
+    font-family: 'font.otf' , sans-serif;
+}
+
+#n2{
+    color: blue;
+    text-align: center;
+}
+
+#p2{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#n3{
+    color: darkcyan;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Library.otf';
+    src: url(./fonts/Library.otf);
+} 
+
+#p3{
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 50px;
+
+    font-family: 'Library.otf' , sans-serif;
+}
+
+#n4{
+    color: darkslategrey;
+    text-align: center;
+}
+
+#p4{
+    text-indent: 35px;
+    font-size: 20px;
+}
+
+#p5{
+    font-size: 30px;
+    color: brown;
+    border: 2px black solid;
+    margin-right: 1000px;
+}

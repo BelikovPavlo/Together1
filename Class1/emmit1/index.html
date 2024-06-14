@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- nav>ul>li -->
+    <nav>
+        <ul>
+            <li></li>
+        </ul>
+    </nav>
+
+    <!-- div+p+h3 -->
+    <div></div>
+    <p></p>
+    <h3></h3>
+
+    <!-- div+div>p>span+em^h3 -->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+        <h3></h3>
+    </div>
+
+    <!-- div>(header>ul>li*2>a)+footer>p -->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+
+    <!-- ul>li*5 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- ul>li.item$*5 -->
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+    </ul>
+
+    <!-- h$[title='item$']{Header $}*5 -->
+    <h1 title="item1">Header 1</h1>
+    <h2 title="item2">Header 2</h2>
+    <h3 title="item3">Header 3</h3>
+    <h4 title="item4">Header 4</h4>
+    <h5 title="item5">Header 5</h5>
+    <h6 title="item6">Header 6</h6>
+
+    <!-- ul>li{any text $}*5 -->
+    <ul>
+        <li>any text 1</li>
+        <li>any text 2</li>
+        <li>any text 3</li>
+        <li>any text 4</li>
+        <li>any text 5</li>
+    </ul>
+
+    <!-- ul>li.item$$$*3 -->
+    <ul>
+        <li class="item001"></li>
+        <li class="item002"></li>
+        <li class="item003"></li>
+    </ul>
+
+
+    <!-- ul>li.item$@-*3 -->
+    <ul>
+        <li class="item3"></li>
+        <li class="item2"></li>
+        <li class="item1"></li>
+    </ul>
+
+    <!--? id and class -->
+    <!-- #id -->
+    <div id="header"></div>
+
+    <!-- .class -->
+    <div class="class"></div>
+
+    <!-- form#search.wide -->
+    <form action="" id="search" class="wide"></form>
+
+    <!-- p.class1.class2.class3 -->
+    <p class="class1 class2 class3"></p>
+
+    <!-- атрибути -->
+    <!-- p[title='hello'] -->
+    <p title="hello"></p>
+
+    <!-- .td[rowspan=2 colspan=3 title] -->
+    <div class="td" rowspan="2" colspan="3" title=""></div>
+
+    <!-- a{click me} -->
+    <a href="">click me</a>
+
+    <!-- p>{click}+a{here}+{ to continue} -->
+    <p>click<a href="">here</a> to continue</p>
+
+    <!--! скорочення тегів -->
+    <!-- .class -->
+    <div class="class"></div>
+
+
+    <!-- em>.class -->
+    <em><span class="class"></span></em>
+
+
+    <!-- ul>.class -->
+    <ul>
+        <li class="class"></li>
+    </ul>
+
+
+    <!-- table>.row>.col -->
+    <table>
+        <tr class="row">
+            <td class="col"></td>
+        </tr>
+    </table>
+
+</body>
+</html>

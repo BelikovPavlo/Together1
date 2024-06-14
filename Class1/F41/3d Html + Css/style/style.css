@@ -1,0 +1,128 @@
+/** Селектор(властивість: значення;) */
+
+/*? Види селекторів  */
+/*!1 CSS селектор елемента(тега) p, a, h1, main.... */
+  /* p{
+    color: red
+  } */
+  /*!2 CSS селектор id  # */
+  /* #para1{
+    color: blue;
+  } */
+   
+  /*!3 CSS селектор class  . */
+  /* .center{
+    color:rgb(70, 120, 21);
+    text-align: center;
+  } */
+   
+  /*!4 CSS селектор атрибуту  [] */
+   
+  /*!5 CSS селектор all  * */
+   
+  *{
+    background-color: #15c7be;
+  }
+
+  /*? ///////////// */
+  /* Лише параграф з class center буде мати данні властивості */
+  /* p.center{
+    font-weight: 900;
+  } */
+
+ /*? ///////////// */
+
+ /* h1, hr, p, .center, #para1{
+    text-align: center;
+ } */
+
+
+ 
+ 
+ 
+ 
+ 
+ /*? ///////////// */
+
+ /* h1{
+    text-align: center;
+ } */
+
+/* @font-face {
+    font-family: 'jersey';
+    src: url(../);
+} */
+
+/* @font-face {
+  font-family: '';
+  src: url();
+} */
+
+ p{
+   /*! font-family */
+   /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+   /*! Скачати з сайту google fonts */
+   /* font-family: 'jersey'; */
+    /*! Розмір текста */
+   font-size: 20px;
+   /*! Курсивний текст */
+   font-style: italic;
+   /*! Напівжирним текст */ 
+   font-weight: bold;
+   /*! Вирівнювання текста */
+   /* text-align: start; */
+   /* text-align: end; */
+   /* text-align: center; */
+   /* text-align: justify; */
+   /*! Підкреслення */
+   text-decoration: underline;
+   /* text-decoration: line-through; */
+   /* text-decoration: overline; */
+   /*! Абзац */
+   text-indent: 35px;
+   /*! регістр(маленькі, великі літери) */
+   /* text-transform: lowercase; */
+   /* text-transform: uppercase; */
+   text-transform: capitalize;
+
+   /*! Відступи між рядками */
+   line-height: 45px;
+
+   /*? ////// color /////// */
+   /*! Колір текста */
+   /* color: pink;
+   color: #000000; */
+   color: rgb(26, 20, 20);
+   /*! Колір заднього плану */
+   background-color: blanchedalmond;
+
+
+   /*! Розмір (висота і ширина)*/
+   height: 150px;
+   width: 650px;
+
+   /*! Відступ від границі в середині блока */
+   /* padding: 50px; */
+   /*! Верх, право, низ, ліво */
+   padding: 10px 30px 100px 120px;
+   /* padding-left: ;
+   padding-right: ;
+   padding-top: ;
+   padding-bottom: ; */
+   /* padding: 100px 50px; */
+
+   /*! рамка елемента або border */
+   /* border-width: 7px;
+   border-color: red;
+   border-style: solid; */
+   border: 7px solid red;
+
+   /*! Зовнішній відступ  */
+   margin: 10px 30px 60px 100px;
+   /* margin-left: ;
+   margin-right: ;
+   margin-top: ;
+   margin-bottom: ; */
+
+ }
+
